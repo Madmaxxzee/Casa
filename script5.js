@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     try {
-      const res = await fetch("http://localhost:3000/submit-lead", {
+      const res = await fetch("https://www.sprecrm.com/submit-lead", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data)
@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     try {
-      const res = await fetch("http://localhost:3000/submit-lead", {
+      const res = await fetch("https://www.sprecrm.com/submit-lead", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)
